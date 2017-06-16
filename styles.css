@@ -22,14 +22,14 @@ a:hover{color:#205080;}
 #header h1{
         font-family: "Arial Black", Arial, Helvetica, sans-serif;
 	font-size: 75px;
-	font-weight: bolder;
+	font-weight: normal;
 	text-transform: none;
         color: #205080;}
 
 #header h2{
         font-family: "Arial Black", Arial, Helvetica, sans-serif;
 	font-size: 25px;
-	font-weight: bolder;
+	font-weight: normal;
 	text-transform: none;
         color: #205080;}
 /********************** Navigation **********************/
