@@ -14,11 +14,14 @@ body {
 	
 }
 a{color:#000000;}
-a:hover{color:#205080;}
+a:hover{color:#ff0000;}
 /********************** Header ***************************/
 #header {
-	
 }
+
+#header a:link {color: #205080; }
+#header a:hover, a:active { color: #ff0000; text-decoration: none;}
+
 #header h1{
         font-family: "Arial Black", Arial, Helvetica, sans-serif;
 	font-size: 75px;
@@ -32,6 +35,7 @@ a:hover{color:#205080;}
 	font-weight: normal;
 	text-transform: none;
         color: #205080;}
+
 /********************** Navigation **********************/
 #navigation ul{
 	position:relative;
@@ -88,8 +92,13 @@ a:hover{color:#205080;}
 
 #main a{}
 
-img { border: 4px solid ; color:#bbbbbb;} 
-img:hover { border: 4px solid ; color:#205080;}
+#main a img { border: 4px solid ; color:#bbbbbb;} 
+#main a:hover img { border: 4px solid ; color: #ff0000; text-decoration: none;}
+
+
+
+Read more: http://html.com/images/borders-and-image-links/#ixzz4kC3icVo3
+
 
 /********************** Footer ***************************/
 #footer {
