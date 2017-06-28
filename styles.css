@@ -85,8 +85,9 @@ a:hover{color:#ff0000;}
 	text-transform: none;
 	color: #000000;}
 
-#main h4{ color: #000000;
-}
+#main h4{
+        font-size: 20px;
+        color: #000000;}
 
 #main p{}
 
